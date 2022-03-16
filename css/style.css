@@ -1,0 +1,238 @@
+body {
+  text-align: center;
+  font-size: 3vw;
+}
+
+/* ローディング画面 */
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        display: none;
+        opacity: 0;
+        z-index: -1;
+    }
+}
+
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #00c2bc;
+    z-index: 130;
+}
+/* 読み込み完了後に「loaded」を付与する */
+#loader.loaded {
+    animation: fadeOut 3s forwards;
+}
+.spinner {
+  margin: 100px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+
+  -webkit-animation: sk-rotate 2.0s infinite linear;
+  animation: sk-rotate 2.0s infinite linear;
+}
+
+.dot1, .dot2 {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #333;
+  border-radius: 100%;
+
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.dot2 {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+/* ローディング画面 */
+
+
+.yesno {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%)translateX(-50%);
+  width: 90%;
+  z-index: 110;
+}
+
+/* 背景画像 */
+#keyvisual {
+  position: relative;
+  width: 100%;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* 画像を白くするため */
+#fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,.7);
+  z-index: 100;
+}
+
+/* 元のサイトに戻る */
+.home-icon {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  color: #333;
+}
+.home-icon:before {
+  font-family: 'FontAwesome';
+  content: "\f015";
+}
+
+h1 {
+  background: rgba(0, 118, 61,.6);
+  padding: 1vw 0;
+  margin-bottom: 5vw;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+/* スタートボタン */
+#start-btn {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 4vw;
+  color: #149442;
+  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #169649, 0px 2px 0px #12873b, 0px 3px 0px #107232;
+}
+#start-btn span {
+  font-size: 2vw;
+}
+#start-btn:active {
+  text-shadow: none;
+}
+
+/* 質問・結果 */
+.positionFit {
+  display: none;
+}
+.positionFit h2 {
+  background: rgba(0, 118, 61,.6);
+  padding: 1vw 0;
+  margin-bottom: 5vw;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+/* 説明文 */
+.positionFit p {
+  margin: 2vw 0;
+  font-size: 1rem;
+}
+
+/* 選択ボタン */
+.content {
+  display: none;
+}
+.content ul {
+  padding: 0;
+}
+.content li {
+  display: inline-block;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+  background: rgba(0, 118, 61,.6);
+  line-height: 30vw;
+  margin: 0 5%;
+}
+.content li a {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #169649, 0px 2px 0px #12873b, 0px 3px 0px #107232;
+}
+.content li a:active {
+  box-shadow: none;
+}
+.back {
+  float: right;
+  font-size: 0.9rem;
+  border: 0.1vw solid #555;
+  color: #555;
+  text-decoration: none;
+  padding: 0 1vw;
+}
+
+/* 結果ページ */
+/* YouTube画面 */
+iframe {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  height: 30vw;
+}
+/* 説明 */
+.result p {
+  font-size: 0.8rem;
+  margin-top: 30px;
+}
+.official {
+  color: #149442;
+  font-weight: bold;
+
+}
+.official:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+/* 診断トップに戻るボタン */
+.top-icon {
+  position: fixed;
+  right: 0;
+  bottom: 20px;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  background: rgba(0, 118, 61,.6);
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #169649, 0px 2px 0px #12873b, 0px 3px 0px #107232;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 7px;
+  line-height: 35px;
+}
+.top-icon:active {
+  box-shadow: none;
+}

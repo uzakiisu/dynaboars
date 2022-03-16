@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 4vw;
+}
+#keyvisual {
+  position: relative;
+  width: 100%;
+  background-image: url(../img/background.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,.7);
+  z-index: 100;
+}
+.positionFit,
+.content {
+  position: absolute;
+  text-align: center;
+  width: 80%;
+  height: 80%;
+  top: 30vw;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 110;
+}
+.positionFit h1 {
+  background: rgba(0, 118, 61,.6);
+  padding: 1vw 0;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+.positionFit p {
+  margin-top: 2vw;
+  font-size: .8rem;
+}
+.content p {
+  font-size: 3vw;
+  background: rgba(0, 118, 61,.6);
+  border-radius: 2vw;
+  color: #fff;
+}
+.content ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+}
+.content li {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+  background: rgba(0, 118, 61,.6);
+  line-height: 30vw;
+}

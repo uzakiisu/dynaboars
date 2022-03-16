@@ -1,0 +1,1173 @@
+* {
+		margin: 0;
+		padding: 0;
+}
+
+body {
+		wodth: 1440px;
+		margin: 0 auto;
+		background: #fff;
+}
+
+a {
+		text-decoration: none;
+}
+/*ヘッダーここから*/
+#s_title{
+    width: 100%;
+    text-align: center;
+}
+#logo{
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+/*ヘッダーここまで*/
+
+/*導入ここから*/
+.intro_image {
+		width: 100%;
+		text-align: center;
+		vertical-align: top;
+}
+
+.intro_sentence {	
+		margin: 0 auto;
+		background: #00763c;
+		padding: 50px 0;
+}
+
+.intro_sent_p {
+		margin: 0 auto;
+		width: 85%;
+		text-align: center;
+		color: #fff;
+		font-size: 22px;
+		font-family: YuGothic,'Yu Gothic',sans-serif;
+}
+/*導入ここまで*/
+
+/*ダイナボアーズ紹介ここから*/
+#whats {
+		text-align: center;
+}
+
+.whats_title {
+		text-align: center;
+		width: 260px;
+		margin: 100px auto 30px auto;
+		font-size: 28px;
+		color: #fff;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		background: #00763c;
+		border-radius: 30px;
+		padding: 5px 40px;
+}
+
+.whats_video {
+		width: 75%;
+		text-align: center;
+		border: solid 3px #000;
+}
+
+.clubhouse_title {
+		text-align: center;
+		width: 260px;
+		margin: 100px auto 30px auto;
+		font-size: 28px;
+		color: #fff;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		background: #00763c;
+		border-radius: 30px;
+		padding: 5px 40px;		
+}
+/*ダイナボアーズ紹介ここまで*/
+
+/* リンクアイコン */
+.link_icon {
+		width: 140px;
+		position: -webkit-sticky;
+		position: sticky;
+		left: 3000px;
+		top: 30px;
+		float: left;
+		margin-top: 100px;
+		z-index: 2;
+}
+/* リンクアイコン */
+
+/*グラウンドここから*/
+.gro_title {
+		color: #000;
+		font-size: 25px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		margin-left: 15.3%;
+		padding: 4px 8px;
+}
+
+.gro_image {
+		text-align: center;
+}
+
+.gro_image img {
+		width: 70%;
+		vertical-align: top;
+		margin-top: 20px;
+}
+
+.gro_sentence {
+		padding-top: 10px;
+}
+
+.gro_p {
+		width: 68%;
+		font-size: 22px;
+		color: #000;
+		line-height: 2;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		margin-left: 16%;
+}
+/*グラウンドここまで*/
+
+/*トレーニングジムここから*/
+.gym_title {
+		color: #000;
+		font-size: 25px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		margin-left: 15.3%;
+		padding: 4px 8px;
+}
+
+.gym_image {
+		text-align: center;
+}
+
+.gym_image img {
+		width: 70%;
+		vertical-align: top;
+		margin-top: 20px;
+}
+
+.gym_sentence {
+		padding-top: 10px;
+}
+
+.gym_p {
+		width: 68%;
+		font-size: 22px;
+		color: #000;
+		line-height: 2;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		margin-left: 16%;
+}
+
+.training_gym {
+		margin-top: 50px;
+}
+/*トレーニングジムここまで*/
+
+/*施設内ここから*/
+.gps_title {
+		color: #000;
+		font-size: 25px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		margin-left: 15.3%;
+		padding: 4px 8px;
+}
+
+.gps_image {
+		text-align: center;
+}
+
+.gps_image img {
+		width: 70%;
+		vertical-align: top;
+		margin-top: 20px;
+}
+
+.gps_sentence {
+		padding-top: 10px;
+}
+
+.gps_p {
+		width: 68%;
+		font-size: 22px;
+		color: #000;
+		line-height: 2;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		margin-left: 16%;
+}
+
+.gps {
+		margin-top: 50px;
+}
+/*施設内ここまで*/
+
+/*インタビューここから*/
+.interview_title {
+		width: 280px;
+		margin: 130px auto 60px auto;
+		font-size: 28px;
+		color: #fff;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		background: #00763c;
+		border-radius: 30px;
+		padding: 5px 40px;		
+}
+
+	/*川上選手ここから*/
+.kawakami {
+		height: 1200px;
+		position: relative;
+}
+
+.profile1 {
+		width: 53%;
+		height: 206px;
+		background: #00763c;
+		float: left;
+		margin-left: 6.15%;
+}
+
+.player_img1 {
+		width: 34.7%;
+		vertical-align: top;
+}
+
+.player_name1 {
+		color: #fff;
+		font-size: 30px;
+		font-weight: bold;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		padding: 2.7% 0 2.1% 1.74%;
+}
+
+.name_prof1 {
+		width: 83.3%;
+		color: #fff;
+		font-size: 21px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		padding-left: 1.74%;
+}
+
+
+.kawakami_ques1 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 0.27% 0.55%;
+		position: absolute;
+		top: 21.6%;
+		left: 9.72%;
+}
+.kawakami_ques1_ans {
+		width: 43.3%;
+		position: absolute;
+		top: 27.5%;
+		left: 11.1%;
+
+}
+.kawa_ques1_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+.kawakami_ques2 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 0.27% 0.55%;
+		position: absolute;
+		top: 50.8%;
+		left: 49.6%;
+}
+.kawakami_ques2_ans {
+		width: 43.3%;
+		position: absolute;
+		top: 56.6%;
+		left: 51%;
+
+}
+.kawa_ques2_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+.kawakami_ques3 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 0.27% 0.55%;
+		position: absolute;
+		top: 84.2%;
+		left: 9.72%;
+}
+.kawakami_ques3_ans {
+		width: 83%;
+		position: absolute;
+		top: 90%;
+		left: 11.1%;
+
+}
+.kawa_ques3_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+.interview1_img {
+		width: 38.6%;
+		position: absolute;
+		top: 51.5%;
+		left: 6.15%;
+}
+	/*川上選手ここまで*/
+	
+	/*奈良選手ここから*/
+.nara {
+		margin-top: 150px;
+		height: 1200px;
+		position: relative;
+}
+
+.profile2 {
+		width: 53%;
+		height: 206px;
+		background: #00763c;
+		float: left;
+		margin-left: 6.15%;
+}
+
+.player_img2 {
+		width: 34.7%;
+		vertical-align: top;
+}
+
+.player_name2 {
+		color: #fff;
+		font-size: 30px;
+		font-weight: bold;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		padding: 2.7% 0 2.1% 1.74%;
+}
+
+.name_prof2 {
+		width: 83.3%;
+		color: #fff;
+		font-size: 21px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		padding-left: 1.74%;
+}
+
+
+.nara_ques1 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 0.27% 0.55%;
+		position: absolute;
+		top: 21.6%;
+		left: 9.72%;
+}
+.nara_ques1_ans {
+		width: 43.3%;
+		position: absolute;
+		top: 27.5%;
+		left: 11.1%;
+
+}
+.na_ques1_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+.nara_ques2 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 0.27% 0.55%;
+		position: absolute;
+		top: 50.8%;
+		left: 49.6%;
+}
+.nara_ques2_ans {
+		width: 43.3%;
+		position: absolute;
+		top: 56.6%;
+		left: 51%;
+
+}
+.na_ques2_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+.nara_ques3 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 0.27% 0.55%;
+		position: absolute;
+		top: 84.2%;
+		left: 9.72%;
+}
+.nara_ques3_ans {
+		width: 83%;
+		position: absolute;
+		top: 90%;
+		left: 11.1%;
+
+}
+.na_ques3_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+.interview2_img {
+		width: 38.6%;
+		position: absolute;
+		top: 51.5%;
+		left: 6.15%;
+}
+	/*奈良選手ここまで*/
+	
+	
+	/*鶴谷選手ここから*/
+.tsuruya {
+		margin-top: 150px;
+		height: 1200px;
+		position: relative;
+}
+
+.profile3 {
+		width: 53%;
+		height: 206px;
+		background: #00763c;
+		float: left;
+		margin-left: 6.15%;
+}
+
+.player_img3 {
+		width: 34.7%;
+		vertical-align: top;
+}
+
+.player_name3 {
+		color: #fff;
+		font-size: 30px;
+		font-weight: bold;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		padding: 2.7% 0 2.1% 1.74%;
+}
+
+.name_prof3 {
+		width: 83.3%;
+		color: #fff;
+		font-size: 21px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		padding-left: 1.74%;
+}
+
+
+.tsuruya_ques1 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 0.27% 0.55%;
+		position: absolute;
+		top: 21.6%;
+		left: 9.72%;
+}
+.tsuruya_ques1_ans {
+		width: 43.3%;
+		position: absolute;
+		top: 27.5%;
+		left: 11.1%;
+
+}
+.tsu_ques1_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+.tsuruya_ques2 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 0.27% 0.55%;
+		position: absolute;
+		top: 50.8%;
+		left: 49.6%;
+}
+.tsuruya_ques2_ans {
+		width: 43.3%;
+		position: absolute;
+		top: 56.6%;
+		left: 51%;
+
+}
+.tsu_ques2_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+.tsuruya_ques3 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 0.27% 0.55%;
+		position: absolute;
+		top: 84.2%;
+		left: 9.72%;
+}
+.tsuruya_ques3_ans {
+		width: 83%;
+		position: absolute;
+		top: 90%;
+		left: 11.1%;
+
+}
+.tsu_ques3_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+.interview3_img {
+		width: 38.6%;
+		position: absolute;
+		top: 51.5%;
+		left: 6.15%;
+}
+	/*鶴谷選手ここまで*/
+	/*メッセージここから*/
+.interview_message {	
+		margin: 70px auto 0 auto;
+		background: #00763c;
+		padding: 50px 0;
+}
+
+.interview_message p {
+		margin: 0 auto;
+		width: 85%;
+		text-align: center;
+		color: #fff;
+		font-size: 22px;
+		font-family: YuGothic,'Yu Gothic',sans-serif;
+}
+	/*メッセージここまで*/
+/*インタビューここまで*/
+
+/*SNSここから*/
+.sns_title {
+		width: 280px;
+		margin: 100px auto 80px auto;
+		font-size: 28px;
+		color: #fff;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		background: #00763c;
+		border-radius: 30px;
+		padding: 5px 40px;	
+		text-align: center;
+}
+.sns_link {
+		width: 620px;
+		display: flex;
+		margin: 0 auto;
+}
+
+.instagram {
+		width: 140px;
+		text-align: center;
+		margin-right: 100px;
+		padding: 7px 0;
+		color: #fff;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		background: linear-gradient(180deg, #D512A5 32.29%, #FFB739 100%);
+		border-radius: 18px;
+}
+.instagram:hover{
+      box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);
+      transform: translateY(-1px);
+      cursor: pointer;
+      transition: 0.2s;
+}
+
+.twitter {
+		width: 140px;
+		text-align: center;
+		margin-right: 100px;
+		padding: 7px 0;
+		color: #fff;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		background: #1C9BF0;
+		border-radius: 18px;
+}
+.twitter:hover{
+      box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);
+      transform: translateY(-1px);
+      cursor: pointer;
+      transition: 0.2s;
+}
+
+.youtube {
+		width: 140px;
+		text-align: center;
+		padding: 7px 0;
+		color: #fff;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		background: #FE0400;
+		border-radius: 18px;
+}
+.youtube:hover{
+      box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);
+      transform: translateY(-1px);
+      cursor: pointer;
+      transition: 0.2s;
+}
+/*SNSここまで*/
+
+/*フッターここから*/
+.top_button {
+		width: 69px;
+		margin: 160px auto 160px auto;
+		padding: 12px 35px;
+		background: #00763c;
+		font-size: 22px;
+		color: #fff;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-radius: 5px;
+}
+.top_button:hover{
+      transform: translateY(-3px);
+      cursor: pointer;
+      transition: 0.2s;
+}
+
+.footer_logo {
+		text-align: center;
+}
+
+.dyna_logo {
+		margin-right: 2.7%;
+}
+.iwa_logo {
+		margin-left: 2.7%;
+}
+
+.copyright {
+		margin-top: 3.5%;
+		padding: 25px 0;
+		background: #00763c;
+		color: #fff;
+		font-size: 13px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		text-align: center;
+}
+.copyright :nth-child(4) {
+		margin-top: 10px;
+}
+/*フッターここまで*/
+
+
+
+/*メディアクエリ*/
+@media (min-width: 900px) and (max-width: 1259px) {
+.interview1_img {
+		position: absolute;
+		top: 60%;
+		}
+.kawakami_ques2 {
+		position: absolute;
+		top: 59%;
+		}
+.kawakami_ques2_ans {
+		top: 65%;
+		}
+.kawakami_ques3 {
+		position: absolute;
+		top: 95%;
+		}
+.kawakami_ques3_ans {
+		position: absolute;
+		top: 101%;
+		}
+.nara {
+		margin-top: 280px;
+		}
+}
+
+
+@media (max-width: 1389px) {
+		.intro_sent_p {
+				text-align: left;
+		}
+}
+
+@media (min-width: 843px) and (max-width: 936px) {
+		.gro_p {
+				font-size: 18px;
+		}
+		.gym_p {
+				font-size: 18px;
+		}
+		.gps_p {
+				font-size: 18px;
+		}
+}
+
+@media (min-width: 642px) and (max-width: 842px) {
+		.gro_p {
+				font-size: 16px;
+		}
+		.gym_p {
+				font-size: 16px;
+		}
+		.gps_p {
+				font-size: 16px;
+		}
+}
+
+@media (max-width: 641px) {
+		.gro_p {
+				font-size: 14px;
+		}
+		.gym_p {
+				font-size: 14px;
+		}
+		.gps_p {
+				font-size: 14px;
+		}
+}
+
+@media (max-width: 1126px) {
+		.iwa_logo,.dyna_logo {
+				margin: 0 auto;
+		}
+}
+
+@media (min-width: 1441px) {
+		.profile1 {
+		width: 763px;
+		height: 206px;
+		background: #00763c;
+		float: left;
+		margin-left: 88.5px;
+}
+
+		.player_img1 {
+		width: 499.6px;
+		vertical-align: top;
+}
+
+		.player_name1 {
+		color: #fff;
+		font-size: 30px;
+		font-weight: bold;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		padding: 39px 0 30px 25px;
+}
+
+		.name_prof1 {
+		width: 1199.5px;
+		color: #fff;
+		font-size: 21px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		padding-left: 25px;
+}
+
+
+		.kawakami_ques1 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 3.8px 7.92px;
+		position: absolute;
+		top: 259.2px;
+		left: 140px;
+}
+		.kawakami_ques1_ans {
+		width: 623.5px;
+		position: absolute;
+		top: 330px;
+		left: 159.8px;
+}
+		.kawa_ques1_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+		.kawakami_ques2 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 3.8px 7.92px;
+		position: absolute;
+		top: 609.6px;
+		left: 714.2px;
+}
+		.kawakami_ques2_ans {
+		width: 623.5px;
+		position: absolute;
+		top: 679px;
+		left: 734.4px;
+}
+		.kawa_ques2_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+		.kawakami_ques3 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 3.8px 7.9px;
+		position: absolute;
+		top: 1010px;
+		left: 116.6px;
+}
+		.kawakami_ques3_ans {
+		width: 1195px;
+		position: absolute;
+		top: 1080px;
+		left: 160px;
+}
+		.kawa_ques3_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+		.interview1_img {
+		width: 555.8px;
+		position: absolute;
+		top: 618px;
+		left: 88.5px;
+}
+	/*川上選手ここまで*/
+	
+	/*奈良選手ここから*/
+		.nara {
+		margin-top: 150px;
+		height: 1200px;
+		position: relative;
+}
+
+		.profile2 {
+		width: 763px;
+		height: 206px;
+		background: #00763c;
+		float: left;
+		margin-left: 88.5px;
+}
+
+		.player_img2 {
+		width: 499.6px;
+		vertical-align: top;
+}
+
+		.player_name2 {
+		color: #fff;
+		font-size: 30px;
+		font-weight: bold;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		padding: 39px 0 30px 25px;
+}
+
+.name_prof2 {
+		width: 1199.5px;
+		color: #fff;
+		font-size: 21px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		padding-left: 25px;
+}
+
+
+		.nara_ques1 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 3.8px 7.92px;
+		position: absolute;
+		top: 259.2px;
+		left: 140px;
+}
+		.nara_ques1_ans {
+		width: 623.5px;
+		position: absolute;
+		top: 330px;
+		left: 159.8px;
+}
+		.na_ques1_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+		.nara_ques2 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 3.8px 7.92px;
+		position: absolute;
+		top: 609.6px;
+		left: 714.2px;
+}
+		.nara_ques2_ans {
+		width: 623.5px;
+		position: absolute;
+		top: 679px;
+		left: 734.4px;
+}
+		.na_ques2_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+		.nara_ques3 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 3.8px 7.9px;
+		position: absolute;
+		top: 1010px;
+		left: 116.6px;
+}
+		.nara_ques3_ans {
+		width: 1195px;
+		position: absolute;
+		top: 1080px;
+		left: 160px;
+}
+		.na_ques3_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+		.interview2_img {
+		width: 555.8px;
+		position: absolute;
+		top: 618px;
+		left: 88.5px;
+}
+	/*奈良選手ここまで*/
+	
+	
+	/*鶴谷選手ここから*/
+.tsuruya {
+		margin-top: 150px;
+		height: 1200px;
+		position: relative;
+}
+
+		.profile3 {
+		width: 763px;
+		height: 206px;
+		background: #00763c;
+		float: left;
+		margin-left: 88.5px;
+}
+
+		.player_img3 {
+		width: 499.6px;
+		vertical-align: top;
+}
+
+		.player_name3 {
+		color: #fff;
+		font-size: 30px;
+		font-weight: bold;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		padding: 39px 0 30px 25px;
+}
+
+		.name_prof3 {
+		width: 1199.5px;
+		color: #fff;
+		font-size: 21px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		padding-left: 25px;
+}
+
+
+		.tsuruya_ques1 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 3.8px 7.92px;
+		position: absolute;
+		top: 259.2px;
+		left: 140px;
+}
+		.tsuruya_ques1_ans {
+		width: 623.5px;
+		position: absolute;
+		top: 330px;
+		left: 159.8px;
+}
+		.tsu_ques1_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+		.tsuruya_ques2 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 3.8px 7.92px;
+		position: absolute;
+		top: 609.6px;
+		left: 714.2px;
+}
+		.tsuruya_ques2_ans {
+		width: 623.5px;
+		position: absolute;
+		top: 679px;
+		left: 734.4px;
+}
+		.tsu_ques2_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+		.tsuruya_ques3 {
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		border-left: solid 5px #00763c;
+		padding: 3.8px 7.9px;
+		position: absolute;
+		top: 1010px;
+		left: 116.6px;
+}
+		.tsuruya_ques3_ans {
+		width: 1195px;
+		position: absolute;
+		top: 1080px;
+		left: 160px;
+}
+		.tsu_ques3_ans {
+		display: inline;
+		color: #000;
+		font-size: 22px;
+		font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+		line-height: 2;
+}
+
+
+		.interview3_img {
+		width: 555.8px;
+		position: absolute;
+		top: 618px;
+		left: 88.5px;
+}
+
+.kawakami {
+	
+}
+}

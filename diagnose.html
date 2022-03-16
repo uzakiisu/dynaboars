@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>性格・動画診断</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+      // ローディング画面切り替え
+
+
+      $(function(){
+        // 読み込みが終わったらloaderを取得してloadedに変更する
+        const loader = document.getElementById('loader');
+        loader.classList.add('loaded');
+        setTimeout(function(){
+          $(".positionFit").css("display", "block");
+        }, 3000);
+
+        // ボタンを押すごとに画面が切り替わる関数
+        $(".btn").on("click", function(){
+          // 質問画面にあたる親要素divをdisplay:none;にする
+          $(this).closest("div").css("display", "none");
+          // 次の質問hrefをidに格納
+          id = $(this).attr("href");
+          // 次の質問idに"positionFit"をつけて出力
+          $(id).addClass("positionFit").fadeIn("slow").show();
+        });
+
+        // 画面のサイズを取得 → 画像を画面サイズぴったりに
+        const types = ['load', 'resize'];
+
+        types.forEach(function(type){
+          window.addEventListener(type, () => {
+
+          let elem = document.getElementById('keyvisual');
+          let wh = window.innerHeight;
+
+          elem.style.height = wh + 'px';
+
+          });
+        });
+      });
+
+
+
+    </script>
+  </head>
+  <body>
+    <!-- ローディング画面 -->
+    <div id="loader">
+      <div class="spinner">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
+    </div>
+
+    <div id="keyvisual">
+      <div id="fill"></div>
+      <div class="yesno clearfix">
+
+        <!-- スタート画面 -->
+        <div id="q_00" class="positionFit">
+          <a href="index.html" class="home-icon"></a>
+
+          <h1>ダイナボアーズ動画診断</h1>
+          <p>あなたが知りたいダイナボアーズを見つけよう</p>
+          <p>この動画診断ではあなたにぴったりの動画を紹介するよ！</p>
+          <a class="btn" id="start-btn" href="#q_01">start <span>▶︎</span></a>
+        </div>
+
+        <!-- 質問 -->
+        <div id="q_01" class="content">
+          <h2>Q. ダイナボアーズの試合が見たい？</h2>
+          <ul>
+          <li><a class="btn" href="#q_02">見たい！</a></li>
+          <li><a class="btn" href="#q_03">他のを見たいな</a></li>
+          </ul>
+        </div>
+
+        <!-- 質問 -->
+        <div id="q_02" class="content">
+          <h2>Q. 私は既にダイナボアーズマニアだ！</h2>
+          <ul>
+          <li><a class="btn" href="#q_04">マニアだよ！</a></li>
+          <li><a class="btn" href="#q_05">新規です✨</a></li>
+          </ul>
+          <a href="#q_01" class="back btn">一つ戻る</a>
+        </div>
+
+        <!-- 質問 -->
+        <div id="q_03" class="content">
+          <h2>Q. 活躍している選手が見たい！</h2>
+          <ul>
+          <li><a class="btn" href="#q_06">知りたい！</a></li>
+          <li><a class="btn" href="#q_07">他のがいいな〜</a></li>
+          </ul>
+          <a href="#q_01" class="back btn">一つ戻る</a>
+        </div>
+
+        <!-- 質問 -->
+        <div id="q_07" class="content">
+          <h2>Q.練習風景が見たい！</h2>
+          <ul>
+          <li><a class="btn" href="#q_08">見たい！</a></li>
+          <li><a class="btn" href="#q_09">日常が見たい！</a></li>
+          </ul>
+          <a href="#q_03" class="back btn">一つ戻る</a>
+        </div>
+
+
+        <!-- 診断結果 -->
+        <div id="q_04" class="content">
+          <h2>E.既存ファン向け(7分密着！)</h2>
+          <div id="sample"></div>
+          <iframe class="YouTube-player" src="https://www.youtube.com/embed/lEQ3TvA0Jqs?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p><a href="https://www.youtube.com/channel/UCiUY2cm6ADZhfJW9BHLidUw" class="official" target="_blank">ダイナボアーズの公式YouTubeチャンネル</a>では<br>
+            チームや選手の魅力溢れる動画をたくさん投稿しています！<br>
+            今回の動画診断も参考に、お気に入り動画を探していこう！<br>
+            新着動画も見逃さないようにね、チャンネル登録、通知もお忘れなく！</p>
+          <a class="btn top-icon" href="diagnose.html">もう一度<br>診断する</a>
+        </div>
+
+        <div id="q_05" class="content">
+          <h2>A.試合動画</h2>
+          <iframe class="YouTube-player" src="https://www.youtube.com/embed/s_qqM8zQnRQ?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p><a href="https://www.youtube.com/channel/UCiUY2cm6ADZhfJW9BHLidUw" class="official" target="_blank">ダイナボアーズの公式YouTubeチャンネル</a>では<br>
+            チームや選手の魅力溢れる動画をたくさん投稿しています！<br>
+            今回の動画診断も参考に、お気に入り動画を探していこう！<br>
+            新着動画も見逃さないようにね、チャンネル登録、通知もお忘れなく！</p>
+          <a class="btn top-icon" href="diagnose.html">もう一度<br>診断する</a>
+        </div>
+
+        <div id="q_06" class="content">
+          <p>D.選手紹介(スタメン紹介)</p>
+          <iframe class="YouTube-player" src="https://www.youtube.com/embed/JcDtZpVgItU?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p><a href="https://www.youtube.com/channel/UCiUY2cm6ADZhfJW9BHLidUw" class="official" target="_blank">ダイナボアーズの公式YouTubeチャンネル</a>では<br>
+            チームや選手の魅力溢れる動画をたくさん投稿しています！<br>
+            今回の動画診断も参考に、お気に入り動画を探していこう！<br>
+            新着動画も見逃さないようにね、チャンネル登録、通知もお忘れなく！</p>
+          <a class="btn top-icon" href="diagnose.html">もう一度<br>診断する</a>
+        </div>
+
+        <div id="q_08" class="content">
+          <p>B.練習風景</p>
+          <iframe class="YouTube-player" src="https://www.youtube.com/embed/o1aK3UyV9HY?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p><a href="https://www.youtube.com/channel/UCiUY2cm6ADZhfJW9BHLidUw" class="official" target="_blank">ダイナボアーズの公式YouTubeチャンネル</a>では<br>
+            チームや選手の魅力溢れる動画をたくさん投稿しています！<br>
+            今回の動画診断も参考に、お気に入り動画を探していこう！<br>
+            新着動画も見逃さないようにね、チャンネル登録、通知もお忘れなく！</p>
+          <a class="btn top-icon" href="diagnose.html">もう一度<br>診断する</a>
+        </div>
+
+        <div id="q_09" class="content">
+          <p>F.選手の日常</p>
+          <iframe class="YouTube-player" src="https://www.youtube.com/embed/0uoe1vsoGA4?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p><a href="https://www.youtube.com/channel/UCiUY2cm6ADZhfJW9BHLidUw" class="official" target="_blank">ダイナボアーズの公式YouTubeチャンネル</a>では<br>
+            チームや選手の魅力溢れる動画をたくさん投稿しています！<br>
+            今回の動画診断も参考に、お気に入り動画を探していこう！<br>
+            新着動画も見逃さないようにね、チャンネル登録、通知もお忘れなく！</p>
+          <a class="btn top-icon" href="diagnose.html">もう一度<br>診断する</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
